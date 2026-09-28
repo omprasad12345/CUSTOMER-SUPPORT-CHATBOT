@@ -1,0 +1,36 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+application-secret.properties
+secrets.properties
+
+# Java and Spring Boot
+target/
+*.class
+*.jar
+*.war
+*.log
+
+# React and Node.js
+node_modules/
+dist/
+build/
+.npm/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
